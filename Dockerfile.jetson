@@ -1,0 +1,3 @@
+FROM dustynv/l4t-pytorch:r35.2.1
+RUN pip install websockets
+WORKDIR /workspace
